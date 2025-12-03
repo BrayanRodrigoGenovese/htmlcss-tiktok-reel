@@ -6,6 +6,7 @@
 
 body {
   margin: 0 auto;
+  display: flex;
   font-family: "TikTok Sans", sans-serif;
 }
 
@@ -66,6 +67,10 @@ div {
   text-align: center;
 }
 
+.extra {
+  display: flex;
+}
+
 /* Sidebar */
 .sidebar {
   padding: 0 16px;
@@ -122,18 +127,33 @@ footer {
 
   /* Inserisci qui sotto 
 	le tue regole, se necessario. */
-  padding: 10px;
   max-width: 512px;
-  background-color: black;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  max-width: 300px;
+  text-align: left;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.navigation-bar {
+  display: flex;
+  background-color: black;
+  padding: 10px;
 }
 
 .navigation {
   display: flex;
   width: 100px;
   flex-direction: column;
-  font-size: 14px;
+  font-size: 9px;
 }
 
 i {
