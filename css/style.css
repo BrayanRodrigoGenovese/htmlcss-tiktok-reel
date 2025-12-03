@@ -76,6 +76,40 @@ div {
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
+.avatar {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.profile-picture {
+  position: relative;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.follow-button {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  font-size: 10pt;
+  bottom: 0;
+  left: 50%;
+  translate: -50% 50%;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  align-content: center;
+  justify-content: center;
+}
+
+.interaction {
+  color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
 
 /* ---------------------
 Regole per evidenziare i blocchi 
