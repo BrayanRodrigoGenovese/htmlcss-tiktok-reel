@@ -42,17 +42,28 @@ video {
 	le tue regole, se necessario. */
 }
 
-/* Footer */
+.reel-header > i {
+  margin: 0 26px;
+}
 
-footer {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	color: #fff;
+ul {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0 auto;
+}
+ul > li {
+  display: inline-block;
+  margin: 10px;
+}
 
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+ul > li > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div {
+  position: relative;
+  text-align: center;
 }
 
 /* Sidebar */
